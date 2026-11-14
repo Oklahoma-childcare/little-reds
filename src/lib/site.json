@@ -1,0 +1,20 @@
+{
+  "name": "Little Red's Learning Center",
+  "city": "Prague",
+  "state": "Oklahoma",
+  "stateCode": "OK",
+  "street": "1319 Westlawn Ln",
+  "postalCode": "74864",
+  "phone": "(405) 566-8927",
+  "phoneHref": "+14055668927",
+  "email": "Littleredsok@gmail.com",
+  "director": "Aspen McKissick",
+  "license": "K830058396",
+  "starLevel": 3,
+  "capacity": 30,
+  "hours": "7:00 AM - 6:00 PM",
+  "hoursOpening": "07:00",
+  "hoursClosing": "18:00",
+  "days": "Monday - Friday",
+  "providerUrl": "https://childcarefind.okdhs.org/providers/K830058396"
+}

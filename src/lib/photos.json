@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "src": "https://images.pexels.com/photos/8535156/pexels-photo-8535156.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    "alt": "Children's learning room with warm wooden furnishings; illustrative photo",
+    "position": "center 54%",
+    "sourcePage": "https://www.pexels.com/photo/kids-playroom-with-wooden-tables-and-bunk-bed-8535156/"
+  },
+  "detail": {
+    "src": "https://images.pexels.com/photos/6692939/pexels-photo-6692939.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "alt": "Wooden educational toys in a playroom; illustrative photo",
+    "position": "center 54%",
+    "sourcePage": "https://www.pexels.com/photo/wooden-toys-on-the-corner-of-the-bedroom-6692939/"
+  },
+  "about": {
+    "src": "https://images.pexels.com/photos/32720305/pexels-photo-32720305.jpeg?auto=compress&cs=tinysrgb&w=1050",
+    "alt": "Warm wooden playroom with a climbing frame; illustrative photo",
+    "position": "center 46%",
+    "sourcePage": "https://www.pexels.com/photo/wooden-toys-and-climbing-frame-in-cozy-playroom-32720305/"
+  },
+  "infants": {
+    "src": "https://images.pexels.com/photos/6849272/pexels-photo-6849272.jpeg?auto=compress&cs=tinysrgb&w=750",
+    "alt": "Infant room with soft toys; illustrative photo",
+    "position": "center center",
+    "sourcePage": "https://www.pexels.com/photo/a-baby-bed-with-toys-decoration-6849272/"
+  },
+  "toddlers": {
+    "src": "https://images.pexels.com/photos/6692930/pexels-photo-6692930.jpeg?auto=compress&cs=tinysrgb&w=750",
+    "alt": "Playroom prepared for toddler play; illustrative photo",
+    "position": "center center",
+    "sourcePage": "https://www.pexels.com/photo/kid-toys-inside-a-playroom-6692930/"
+  },
+  "preschool": {
+    "src": "https://images.pexels.com/photos/8535240/pexels-photo-8535240.jpeg?auto=compress&cs=tinysrgb&w=750",
+    "alt": "Children playing with colorful wooden toys; illustrative photo",
+    "position": "center center",
+    "sourcePage": "https://www.pexels.com/photo/kids-playing-wooden-toys-8535240/"
+  },
+  "schoolAge": {
+    "src": "https://images.pexels.com/photos/8535142/pexels-photo-8535142.jpeg?auto=compress&cs=tinysrgb&w=750",
+    "alt": "Classroom decorated with children's drawings; illustrative photo",
+    "position": "center center",
+    "sourcePage": "https://www.pexels.com/photo/room-decorated-with-children-drawings-8535142/"
+  },
+  "feature": {
+    "src": "https://images.pexels.com/photos/6692939/pexels-photo-6692939.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "alt": "Natural learning toys and play materials; illustrative photo",
+    "position": "center center",
+    "sourcePage": "https://www.pexels.com/photo/wooden-toys-on-the-corner-of-the-bedroom-6692939/"
+  }
+}
