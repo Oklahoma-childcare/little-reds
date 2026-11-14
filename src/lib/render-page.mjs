@@ -57,7 +57,35 @@ function picture(photos, key, className='', eager=false) {
   return `<div class="image-holder ${esc(className)} ${src?'':'missing-image'}" style="--img-position:${esc(position)}">${src?`<img src="${esc(src)}" alt="${esc(p.alt||'Learning space photograph')}" ${eager?'loading="eager" fetchpriority="high"':'loading="lazy"'} decoding="async">`:''}<span class="fallback-art" aria-hidden="true">${house('fallback-house')}</span></div>`;
 }
 const NAV=[['/','Home'],['/programs/','Age groups'],['/about/','Our center'],['/faq/','FAQs'],['/contact/','Contact']];
-function brand(){return `<a href="/" class="brand" aria-label="Little Red's Learning Center home"><span class="brand-visual">${house()}</span><span class="brand-copy"><strong>little red’s<span class="brand-period">.</span></strong><small>LEARNING CENTER</small></span></a>`}
+
+function brand() {
+  return `
+    <a
+      href="/"
+      class="brand"
+      aria-label="Little Red's Learning Center home"
+    >
+      <span class="brand-visual">
+        <img
+          src="/images/little-reds-logo.png"
+          class="brand-logo-img"
+          alt=""
+          width="680"
+          height="680"
+          decoding="async"
+        >
+      </span>
+
+      <span class="brand-copy">
+        <strong>
+          little red’s<span class="brand-period">.</span>
+        </strong>
+        <small>LEARNING CENTER</small>
+      </span>
+    </a>
+  `;
+}
+
 function socialLinks(social){
   const names={facebook:'Facebook',instagram:'Instagram',youtube:'YouTube'};
   const items=Object.entries(social||{}).filter(([k,v])=>names[k]&&/^https:\/\//.test(String(v)));
